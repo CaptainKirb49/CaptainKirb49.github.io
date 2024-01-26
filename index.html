@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>CaptainKirby's Website</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 class="text">Test Homepage</h1>
+        <p class="text">There's a message here.</p>
+        <img id="smiley" alt="Smiley face" src="https://assets.codepen.io/6093409/smiley-face.png">
+
+        <script>
+            // Identifying the image
+
+            const smiley = document.querySelector("#smiley");
+
+            // Adding reaction to when the image is clicked
+
+            smiley.addEventListener("click", () => {
+                alert('Smiley says "Welcome!"');
+            });
+        </script>
+    </body>
+</html>
